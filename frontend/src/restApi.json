@@ -1,0 +1,249 @@
+{
+    "data": [
+        {"ourQualities" : [
+            {
+                "id": 1,
+                "image": "./quality_food.svg",
+                "title": "FRESH MADE DAILY",
+                "description": "At McDoughnut, we believe in freshness. Our donuts are made daily to ensure they’re always soft, fresh, and melt-in-your-mouth delicious." 
+            },
+            {
+                "id": 2,
+                "image": "./super_taste.svg",
+                "title": "IRRESISTIBLE AROMAS",
+                "description": "Our donuts emit mouthwatering scents that entice and excite your senses with every delicious bite." 
+            },
+
+            {
+                "id": 2,
+                "image": "./super_taste.svg",
+                "title": "CRAFTED WITH LOVE",
+                "description": "Each donut is made with passion by our expert bakers, ensuring every piece is a work of art that brings a smile to your face.." 
+            },
+
+            {
+                "id": 4,
+                "image": "./fast_delivery.svg",
+                "title": "LIGHTNING-FAST DELIVERY",
+                "description": "Experience our reliable service, bringing your freshly made donuts straight to your door in no time. Enjoy deliciousness at your convenience!" 
+            }
+        ],
+        "dishes": [
+            {
+                "id": 1,
+                "image": "./dd1.png",
+                "title": "ALCAPONE",
+                "category": "ON SALE!"
+            },
+            {
+                "id": 2,
+                "image": "./dd2.png",
+                "title": "AVOCADO",
+                "category": "ON SALE!"
+            },
+            {
+                "id": 3,
+                "image": "./dd3.png",
+                "title": "BERRY SPEARS",
+                "category": "ON SALE!"
+            },
+            {
+                "id": 4,
+                "image": "./dd4.png",
+                "title": "BLACK JACK",
+                "category": "ON SALE!"
+            },
+            {
+                "id": 5,
+                "image": "./dd5.png",
+                "title": "CHOCOLATE RAINBOW",
+                "category": "REGULAR"
+            },
+            {
+                "id": 6,
+                "image": "./dd6.png",
+                "title": "COPA BANANA",
+                "category": "ON SALE!"
+            },
+            {
+                "id": 7,
+                "image": "./dd7.png",
+                "title": "FOREST GLAM",
+                "category": "ON SALE!"
+            },
+            {
+                "id": 8,
+                "image": "./dd8.png",
+                "title": "MATCHO MATCHO",
+                "category": "REGULAR"
+            },
+            {
+                "id": 9,
+                "image": "./dd9.png",
+                "title": "JACKY CHUNK",
+                "category": "ON SALE!"
+            },
+            {
+                "id": 10,
+                "image": "./dd10.png",
+                "title": "JCOCHINO",
+                "category": "REGULAR"
+            },
+            {
+                "id": 11,
+                "image": "./dd11.png",
+                "title": "OREOLOGY",
+                "category": "REGULAR"
+            },
+            {
+                "id": 12,
+                "image": "./dd12.png",
+                "title": "TIRAMISU",
+                "category": "ON SALE!"
+            },
+            {
+                "id": 13,
+                "image": "./dd13.png",
+                "title": "WHY-NUT",
+                "category": "REGULAR"
+            },
+            {
+                "id": 14,
+                "image": "./dd14.png",
+                "title": "SNOW WHITE",
+                "category": "ON SALE!"
+            },
+            {
+                "id": 15,
+                "image": "./dd15.png",
+                "title": "MEISISIPI",
+                "category": "ON SALE!"
+            }
+
+
+
+
+
+        ],
+        "team": [
+            {
+                "id": 1,
+                "image": "./tm2.png",
+                "name": "MATTHEW JUANCHO",
+                "designation": "Founder & Head Chef"
+            },
+            {
+                "id": 2,
+                "image": "./tm1.png",
+                "name": "JUAN MIGUEL",
+                "designation": "Pastry Chef"
+            },
+            {
+                "id": 3,
+                "image": "./tm3.png",
+                "name": "JOHN KENNETH",
+                "designation": "Baker’s Assistant"
+            },
+            {
+                "id": 4,
+                "image": "./tm4.png",
+                "name": "FRANCIS AZATA",
+                "designation": "Decorator/Froster"
+            },
+            {
+                "id": 5,
+                "image": "./tm5.png",
+                "name": "ANDRIE LEBLABLAZE",
+                "designation": "Fry Cook"
+            },
+            {
+                "id": 6,
+                "image": "./tm6.png",
+                "name": "MJ ELLIZER",
+                "designation": "Donut Maker"
+            },
+            {
+                "id": 7,
+                "image": "./tm7.png",
+                "name": "RENCIE JOHN",
+                "designation": "Prep Cook"
+            },
+            {
+                "id": 8,
+                "image": "./tm8.png",
+                "name": "ROWE RUI",
+                "designation": "Senior Chef"
+            }
+        ],
+        "testimonials": [
+            {
+                "id": 1,
+                "image": "./review1.png",
+                "description": "Test",
+                "rating": 4,
+                "userName": "Jane Cooper"
+            },
+            {
+                "id": 2,
+                "image": "./review2.png",
+                "description": "Test",
+                "rating": 4.5,
+                "userName": "Esther Howard"
+            },
+            {
+                "id": 3,
+                "image": "./review3.png",
+                "description": "Test",
+                "rating": 5,
+                "userName": "Guy Hawkins"
+            }
+        ],
+        "who_we_are": [
+            {
+                "id": 1,
+                "number": "14",
+                "title": "Commercial Bakery"
+            },
+            {
+                "id": 2,
+                "number": "20",
+                "title": "Culinary Masters at Work"
+            },
+            {
+                "id": 3,
+                "number": "08",
+                "title": "Years Of Experience"
+            },
+            {
+                "id": 4,
+                "number": "40",
+                "title": "Unique Flavors"
+            }
+        ],
+        "navbarLinks": [
+            {
+                "id": 1,
+                "title": "HOME",
+                "link": "heroSection"
+            },
+
+            {
+                "id": 3,
+                "title": "SERVICES",
+                "link": "qualities"
+            },
+            {
+                "id": 4,
+                "title": "ABOUT US",
+                "link": "team"
+            },
+            {
+                "id": 5,
+                "title": "RESERVATION",
+                "link": "reservation"
+            }
+        ]
+    
+    } 
+    ]
+}

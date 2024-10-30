@@ -1,0 +1,1160 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&display=swap");
+
+* {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  font-family: Quicksand, sans-serif;
+
+}
+::-webkit-scrollbar{
+  display: none;
+}
+
+/********************** NAVBAR COMPONENT STYLING **************************/
+
+nav {
+  display: flex;
+  width: 102%; 
+  justify-content: space-between;
+  align-items: center;
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  box-sizing: border-box;
+  position: relative;
+  background-color: #FFC512; 
+  margin-bottom: 500px;
+
+
+}
+
+nav::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #333;
+  
+}
+
+nav .logo {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  max-width: 7rem; 
+  height: auto;
+}
+
+nav .logotext {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  margin-left: 1rem; 
+  max-width: 15rem;
+  height: auto;
+}
+
+nav .navLinks {
+  flex: 1;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  
+}
+
+nav .navLinks .links {
+  display: flex;
+  gap: 2rem;
+
+}
+
+nav .navLinks .links a {
+  text-decoration: none;
+  color: black; 
+  font-size: 1.25rem;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  align-items: center;
+}
+
+nav .navLinks .links a:hover {
+  color: #6a5acd;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+nav .menuBtn {
+  padding: 0.5rem 1.25rem;
+  color: white;
+  background: #FA8072;
+  border: 1px solid #333;
+  border-radius: 1.25rem;
+  font-size: 1.25rem;
+  margin-right: 5rem; 
+}
+
+nav .menuBtn:hover {
+  color: #fff;
+  background: #222;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+nav .hamburger {
+  display: none;
+}
+
+nav svg {
+  font-size: 1.75rem;
+}
+
+@media (max-width: 1520px) {
+  nav {
+    padding: 1.5rem 1rem;
+  }
+}
+
+@media (max-width: 1100px) {
+  nav {
+    z-index: 20;
+    position: unset;
+    background: #ffffff63;
+    padding: 1rem 2rem;
+  }
+  nav::after {
+    display: none;
+  }
+  nav .hamburger {
+    display: flex;
+  }
+  nav .navLinks {
+    position: absolute;
+    flex-direction: column;
+    top: -100%;
+    background: #fff;
+    width: 100%;
+    left: 0;
+    padding: 1rem 0.5rem;
+    z-index: -1;
+    transition: 0.3s;
+    margin-right: 0px; 
+
+  }
+  nav .showmenu {
+    position: absolute;
+    flex-direction: column;
+    top: 4.2rem;
+    background: #fff;
+    width: 95%;
+    left: 0;
+    padding: 1rem;
+    transition: 0.3s;
+    margin: 0 auto;
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+  }
+  nav .showmenu .links {
+    flex-direction: column;
+    text-align: center;
+  }
+  nav .menuBtn {
+    margin-top: 1rem;
+  }
+}
+
+
+/********************** HERO SECTION COMPONENT STYLING **************************/
+
+.heroSection {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+  justify-content: center; 
+  align-items: center;
+  position: relative; 
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center; 
+  background-image: url('/banners/world.png');
+}
+
+.heroSection .container .banner .rightSide .top {
+  height: auto; 
+  width: 70%; 
+  max-width: 780px;
+  margin-left: 50px; 
+  transition: transform 0.3s; 
+  color: black; 
+  font-size: 60px; 
+}
+
+.heroSection .container .banner .rightSide .mid {
+  color: black;
+  font-size: 18px;
+  padding: 20px 30px; 
+  margin-bottom: 300px;
+  margin-left: 50px; 
+  margin-right: 20px; 
+  background-color: #FFC512;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.heroSection .container .banner .rightSide .top img {
+  height: auto; 
+  width: 70%; 
+  max-width: 780px;
+  margin-left: 0; 
+  transition: transform 0.3s; 
+}
+
+.heroSection .container .banner .rightSide .top img:hover {
+  transform: scale(1.05); 
+}
+
+
+
+/******************* ABOUT US COMPONENT STYLING **************/
+
+.about {
+  display: flex;
+  min-height: 80vh;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+  align-items: center;
+  position: relative;
+  background-color:  #FFC512; 
+  background-image: url('/banners/banderitas.png');
+  background-repeat: repeat-x;
+  background-position: top; 
+  background-size: auto 100px; 
+  color: white;
+  position: relative; 
+  padding-top: 10px;
+}
+
+.about .container {
+  max-width: 1500px;
+  min-width: 1500px;
+  display: flex;
+}
+
+.about .container .banner {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.about .container .banner img {
+  width: 100%;
+}
+
+.about .container .banner .heading {
+  font-size: 3rem;
+  color: black;
+  padding-top: 10px;
+
+  margin-left: 3rem;
+  padding-bottom: 10px;
+}
+
+.about .container .banner .mid {
+  width: 65%;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  margin-left: 3rem;
+  color: black;
+  padding: 20px 30px; 
+  background-color: white;
+  border-radius: 1%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.about .container .banner a {
+  border: 1px solid black;
+  padding: 8px 28px;
+  border-radius: 30px;
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #EB8317;
+  margin-left: 3rem;
+  margin-top: 50px;
+}
+
+.about .container .banner a span {
+  margin-left: 1rem;
+  padding: 6px;
+  border-radius: 100%;
+  color: #fff;
+  background: black;
+}
+
+.about  .container .banner a:hover {
+  color: #fff;
+  background: #111;
+  transition: ease-in-out 0.3s;
+}
+
+.about  .container .banner a:hover span {
+  background: #fff;
+  color: #111;
+}
+
+
+
+/* QUALITIES COMPONENT STYLING */
+
+.qualities {
+  display: flex;
+  height: fit-content;
+  padding: 75px 20px 50px 20px; 
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-image: url('/banners/BAN1.png');
+  margin-bottom: 100px;
+  background-repeat: repeat-x;
+  background-position: top; 
+  background-size: auto 100px; 
+  margin-bottom: 50px;
+}
+
+.qualities .container {
+  min-width: 1500px;
+  max-width: 1500px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.qualities .container .card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0 30px;
+}
+
+.qualities .container .card img {
+  margin-bottom: 25px;
+    width: 100px;
+    height: auto;
+    border-radius: 10px; 
+    object-fit: cover; 
+}
+
+.qualities .container .card .title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 12px;
+}
+
+.qualities .container .card .description {
+  font-size: 16px;
+  color: #333;
+  font-weight: 300;
+}
+
+
+/* MENU COMPONENT STYLING */
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  min-height: 100vh;
+  padding-bottom: 100px; 
+  background-color: #FFC512;
+}
+
+.menu .container {
+  max-width: 1500px;
+  min-width: 1500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu .container .heading_section {
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.menu .container .heading_section p {
+  color: black;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.menu .container .dishes_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+}
+
+.menu .container .dishes_container .card {
+  width: 20%;
+  position: relative;
+  padding: 20px 12.5px;
+  background-color: #6a5acd;
+}
+
+.menu .container .dishes_container .card img {
+  width: 100%;
+  height: 260px;
+  border-radius: 50px; 
+}
+
+.menu .container .dishes_container .card:hover img {
+  transition: 0.3s;
+  transform: scale(1.03);
+}
+
+.menu .moving-text-container {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: #FFC512;
+  overflow: hidden;
+  z-index: 3;
+  padding: 10px 0; 
+}
+
+.menu .moving-text {
+  font-size: 24px;
+  color: #333;
+  white-space: nowrap;
+  display: inline-block;
+  animation: scrollText 15s linear infinite;
+  padding-left: 100%; 
+}
+
+.menu hr {
+  border: none;
+  border-top: 1px solid white;
+  margin: 20px 0;
+  width: 100%;
+}
+
+@keyframes scrollText {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
+
+
+/* TEAM COMPONENT STYLING */
+
+.team {
+  display: flex;
+  min-height: 60vh;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  padding-bottom: 100px; 
+  background-color:  white; 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+
+.team .container {
+  max-width: 1500px;
+  min-width: 1500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team .container .heading_section {
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.team .container .heading_section p {
+  color: #333;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+}
+
+.team .container .team_container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.team .container .team_container .card {
+  width: 25%;
+  padding: 20px;
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team .container .team_container .card h3 {
+  font-size: 1.5rem;
+  margin: 0.5rem 0; 
+}
+
+.team .container .team_container .card p {
+  font-size: 1rem;
+  margin: 0; 
+}
+
+.team .container .team_container .card img {
+  margin-bottom: 0.5rem; 
+  
+}
+
+
+
+/* WHATWEOFFER COMPONENT STYLING */
+
+.wwo {
+    display: flex;
+    height: 100%; 
+    width: 100%;
+    padding: 75px 20px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px; 
+    position: relative;
+    background-color: #FFC512;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    padding-top: 50px; 
+  }
+  
+
+.wwo .container .wwo {
+    margin: 100px 0; 
+
+}
+.wwo .container {
+  max-width: 1500px;
+  min-width: 1500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wwo .container .heading_section {
+  text-align: center;
+  margin-bottom: 12px;
+  color: #6A5ACD;
+
+}
+.wwo .container .heading_section p {
+  color: #333;
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+}
+
+
+ /*HISTORY COMPONENT STYLING */
+
+ .history {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  background-color: white; 
+  background-position: top; 
+  background-repeat: no-repeat;  
+  background-size: 100% auto;
+  width: 100%; 
+  padding: 20px; 
+  box-sizing: border-box; 
+}
+
+.history .container .wwo {
+    margin: 50px 0; 
+}
+
+.history .container {
+  max-width: 1500px;
+  min-width: 1500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.history .container .heading_section {
+  text-align: center;
+  color: #6A5ACD;
+}
+
+.history .container img {
+  margin-bottom: 10px; 
+}
+
+.history .container .paragraphs {
+  padding: 10px; 
+  margin: 0; 
+}
+
+.history hr {
+  border: none;
+  border-top: 1px solid black;
+  margin: 20px 0;
+  width: 100%;
+}
+
+
+
+
+ /*WHOAREWE COMPONENT STYLING */
+ 
+ .whoarewe {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  background-image: url('/banners/BAN2.png'); 
+  background-color:  #FA8072; 
+  background-position: top; 
+  background-repeat: no-repeat;  
+  background-size: 100% auto;
+  width: 100%; 
+  padding: 20px; 
+  box-sizing: border-box; 
+}
+
+.whoarewe  .container .wwo {
+    margin: 50px 0; 
+}
+
+.whoarewe  .container {
+  max-width: 1500px;
+  min-width: 1500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.whoarewe  .container .heading_section {
+  text-align: center;
+  color: #6A5ACD;
+}
+
+.whoarewe  .container img {
+  margin-bottom: 10px; 
+}
+
+.whoarewe  .container .paragraphs {
+  padding: 10px;
+  margin: 0;
+}
+
+.whoarewe .hr {
+  border: none;
+  border-top: 1px solid black;
+  margin: 20px 0;
+  width: 100%;
+}
+
+
+ /*VENUE COMPONENT STYLING */
+ 
+ .venue {
+  background-color:  #FA8072; 
+  background-position: top; 
+  background-repeat: no-repeat;  
+  background-size: 100% auto;
+  width: 100%; 
+  padding: 20px; 
+  padding-bottom: 200px;
+}
+
+/*SHOPINFORMATION COMPONENT STYLING */
+
+.shop_information {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  padding-top: 150px; 
+  padding-bottom: 150px; 
+  background-color: #6A5ACD;
+  background-image: url('/whoarewe/mcstreet.png'); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center center; 
+  position: relative;
+}
+
+.shop_information .container {
+  max-width: 1500px;
+  min-width: 1500px;
+  display: flex;
+}
+
+.shop_information .container .text_banner {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.shop_information .container .text_banner .card {
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  align-items: center;
+  gap: 15px;
+  justify-content: center;
+  width: 280px; 
+  transition: background-color 0.3s, border-radius 0.3s, padding 0.3s; 
+  margin: 0 auto;
+  color: white;
+  padding-top: 80px; 
+  font-size: 21px;
+}
+
+.shop_information .container .text_banner .card:hover {
+  background-color: #FFC512;
+  border-radius: 10%;
+  padding: 10px 20px;
+}
+
+
+.shop_information .container .text_banner .card p {
+  color: white;
+  font-size: 20px;
+  font-weight: 200;
+  position: relative;
+  transition: background-color 0.3s, border-radius 0.3s, padding 0.3s;
+}
+
+.shop_information .container .text_banner .card p:hover {
+  background-color: #6A5ACD;
+  border-radius: 10%;
+  padding: 10px 20px;
+}
+
+.shop_information .container .image_banner {
+  position: relative;
+  flex: 2;
+  display: flex;
+  justify-content: center;
+}
+
+.shop_information .container .image_banner img {
+  width: 500px;
+  height: 400px;
+}
+
+.shop_information .container .image_banner .gradient_bg {
+  position: absolute;
+  left: -80px;
+  top: 0;
+}
+
+
+/******************* FOOTER PAGE STYLING **************/
+footer {
+  color: black; 
+  height: fit-content;
+  width: 100%; 
+  padding-top: 20px;
+  font-size: 16px;
+  background-color: white; 
+  background-size: 100%; 
+  background-position: top; 
+  background-repeat: repeat; 
+  text-shadow: -1px 2px 0 white; 
+  background-repeat: repeat-x; 
+  background-size: auto;        
+  background-position: top; 
+}
+
+
+footer .container {
+  max-width: 100%; 
+  display: flex;
+  flex-direction: column;
+}
+
+footer .container .banner {
+  display: flex;
+  justify-content: flex-start; 
+  align-items: center;
+  gap: 20px; 
+}
+
+footer .container .banner:first-child {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+footer .container .banner:first-child::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 3px;
+}
+
+footer .container .banner:last-child {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+footer .container .banner .left {
+  font-size: 1.75rem;
+}
+
+footer .container .banner:last-child .left {
+  font-size: 15px;
+  color: #333;
+}
+
+footer .container .banner:last-child .left a {
+  color: #333;
+}
+
+footer .container .banner:last-child .left a:hover {
+  color: #111;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+footer .container .banner .right {
+  text-align: end;
+  font-size: 10px;
+  color: #333;
+}
+
+@media (max-width: 1520px) {
+  footer .container {
+    min-width: 100%;
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 530px) {
+  footer .container .banner:first-child {
+    flex-direction: column;
+    gap: 15px;
+  }
+  footer .container .banner:first-child .left,
+  footer .container .banner .right {
+    text-align: center;
+  }
+  footer .container .banner {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+
+
+/******************* RESERVATION COMPONENT STYLING **************/
+
+.reservation {
+  display: flex;
+  min-height: 75vh;
+  padding: 30px 20px;
+  justify-content: center;
+  align-items: center;
+  background-color:  #FFC512; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+
+}
+.reservation .container {
+  max-width: 1500px;
+  min-width: 1500px;
+  display: flex;
+}
+.reservation .container .banner {
+  width: 50%;
+  padding: 50px;
+}
+.reservation .container .banner .reservation_form_box {
+  width: 400px;
+  background: #fff;
+  height: 100%;
+  padding: 20px;
+  box-shadow: -1px 0px 37px 0px rgba(152, 87, 191, 0.75);
+  -webkit-box-shadow: -1px 0px 37px 0px rgba(152, 87, 191, 0.75);
+  -moz-box-shadow: -1px 0px 37px 0px rgba(152, 87, 191, 0.75);
+}
+.reservation .container .banner .reservation_form_box form div {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 20px;
+}
+.reservation .container .banner .reservation_form_box form div input {
+  flex: 1;
+  padding: 5px;
+  font-size: 16px;
+  font-weight: 300;
+  border: none;
+  border-bottom: 1px solid #333;
+  background: transparent;
+}
+
+.reservation
+  .container
+  .banner
+  .reservation_form_box
+  form
+  input[type="email"] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 5px;
+  font-size: 16px;
+  font-weight: 300;
+  border: none;
+  border-bottom: 1px solid #555;
+  background: transparent;
+}
+
+.reservation
+  .container
+  .banner
+  .reservation_form_box
+  form
+  input[type="number"] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 5px;
+  font-size: 16px;
+  font-weight: 300;
+  border: none;
+  border-bottom: 1px solid #333;
+  background: transparent;
+}
+
+.reservation .container .banner .reservation_form_box form div input:focus,
+.reservation
+  .container
+  .banner
+  .reservation_form_box
+  form
+  input[type="number"]:focus,
+.reservation
+  .container
+  .banner
+  .reservation_form_box
+  form
+  input[type="email"]:focus {
+  outline: none;
+  border-bottom: 2px solid skyblue;
+}
+
+.reservation
+  .container
+  .banner
+  .reservation_form_box
+  form
+  div
+  input::placeholder {
+  color: #222;
+}
+
+.reservation .container .banner .reservation_form_box h1 {
+  font-weight: 200;
+  font-size: 2.75rem;
+  color: #111;
+  text-align: center;
+}
+
+.reservation .container .banner .reservation_form_box p {
+  color: #333;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.reservation .container .banner:first-child {
+  display: flex;
+  justify-content: center;
+}
+
+.reservation .container .banner img {
+  width: 550px;
+}
+
+.reservation .container .banner .reservation_form_box form button {
+  border: 1px solid black;
+  padding: 8px 36px;
+  border-radius: 30px;
+  display: flex;
+  width: fit-content;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 13px;
+  color: #111;
+  background: transparent;
+  margin-top: 30px;
+}
+
+.reservation .container .banner .reservation_form_box form button span {
+  margin-left: 1rem;
+  padding: 3px;
+  background: #111;
+  border-radius: 100%;
+  color: #fff;
+}
+@media (max-width: 1520px) {
+  .reservation .container {
+    min-width: 100%;
+  }
+}
+@media (max-width: 1040px) {
+  .reservation .container .banner {
+    padding: 20px;
+  }
+}
+@media (max-width: 1350px) {
+  .reservation .container .banner img {
+    width: 42vw;
+  }
+}
+@media (max-width: 885px) {
+  .reservation .container {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .reservation .container .banner img {
+    width: 70vw;
+  }
+  .reservation .container .banner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 660px) {
+  .reservation .container .banner img {
+    width: 100%;
+  }
+}
+@media (max-width: 450px) {
+  .reservation .container .banner .reservation_form_box {
+    width: 100%;
+  }
+  .reservation .container .banner .reservation_form_box h1 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 325px) {
+  .reservation .container .banner .reservation_form_box h1 {
+    font-size: 1.6rem;
+  }
+}
+
+/******************* NOT FOUND PAGE STYLING **************/
+
+.notFound {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
+.notFound .container {
+  max-width: 1500px;
+  text-align: center;
+}
+
+.notFound .container img {
+  margin-bottom: 2rem;
+}
+
+.notFound .container h1 {
+  font-size: 2.75rem;
+  font-weight: 300;
+  color: black;
+  background: white;
+  border-radius: 30px;
+  padding: 8px 28px;
+  margin-bottom: 0.5rem;
+}
+
+.notFound .container p {
+  font-size: 18px;
+  font-weight: 300;
+  color: black;
+  background: white;
+  border-radius: 30px;
+  padding: 8px 28px;
+  margin-bottom: 1.5rem;
+}
+
+.notFound .container a {
+  border: 1px solid black;
+  padding: 8px 28px;
+  border-radius: 30px;
+  display: flex;
+  width: fit-content;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 15px;
+  color: #111;
+  background: #FFC512;
+}
+
+.notFound .container a span {
+  margin-left: 1rem;
+  padding: 6px;
+  background: #111;
+  border-radius: 100%;
+  color: #fff;
+}
+
+.notFound .container a:hover {
+  color: #fff;
+  background: #111;
+  transition: ease-in-out 0.3s;
+}
+
+.notFound .container a:hover span {
+  background: #fff;
+  color: #111;
+}
+
+@media (max-width: 600px) {
+  .notFound {
+    padding: 30px 20px;
+  }
+  .notFound .container img {
+    width: 100%;
+  }
+  .notFound .container h1 {
+    font-size: 1.75rem;
+  }
+}

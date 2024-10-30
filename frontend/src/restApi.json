@@ -1,0 +1,337 @@
+{
+    "data": [
+        {"ourQualities" : [
+            {
+                "id": 1,
+                "image": "./fresh.png",
+                "title": "FRESHLY MADE",
+                "description": "At McDoughnut, we believe in freshness. Our donuts are made daily to ensure they’re always soft, fresh, and melt-in-your-mouth delicious." 
+            },
+            {
+                "id": 2,
+                "image": "./aroma.png",
+                "title": "IRRESISTIBLE AROMAS",
+                "description": "Our donuts emit mouthwatering scents that entice and excite your senses with every delicious bite." 
+            },
+
+            {
+                "id": 2,
+                "image": "./love.png",
+                "title": "CRAFTED WITH LOVE",
+                "description": "Each donut is made with passion by our expert bakers, ensuring every piece is a work of art that brings a smile to your face.." 
+            },
+
+            {
+                "id": 4,
+                "image": "./car.png",
+                "title": "FAST DELIVERY",
+                "description": "Experience our reliable service, bringing your freshly made donuts straight to your door in no time. Enjoy deliciousness at your convenience!" 
+            },
+            {
+                "id": 5,
+                "image": "./verified.png",
+                "title": "CLEAN LABEL",
+                "description": "Free from artificial additives, preservatives, or any synthetic ingredients, ensuring a natural, wholesome taste with every bite." 
+            },
+            {
+                "id": 6,
+                "image": "./local.png",
+                "title": "LOCAL SUPPLIER",
+                "description": "We carefully source exceptional ingredients from local farms within our communities to ensure fresh, quality flavors in every bite." 
+            }
+        ],
+
+        "dishes": [
+            {
+                "id": 1,
+                "image": "./dd1.png",
+                "title": "ALCAPONE",
+                "category": "ON SALE!"
+            },
+            {
+                "id": 2,
+                "image": "./dd2.png",
+                "title": "AVOCADO",
+                "category": "ON SALE!"
+            },
+            {
+                "id": 3,
+                "image": "./dd3.png",
+                "title": "BERRY SPEARS",
+                "category": "ON SALE!"
+            },
+            {
+                "id": 4,
+                "image": "./dd4.png",
+                "title": "BLACK JACK",
+                "category": "ON SALE!"
+            },
+            {
+                "id": 5,
+                "image": "./dd5.png",
+                "title": "CHOCOLATE RAINBOW",
+                "category": "REGULAR"
+            },
+            {
+                "id": 6,
+                "image": "./dd6.png",
+                "title": "COPA BANANA",
+                "category": "ON SALE!"
+            },
+            {
+                "id": 7,
+                "image": "./dd7.png",
+                "title": "FOREST GLAM",
+                "category": "ON SALE!"
+            },
+            {
+                "id": 8,
+                "image": "./dd8.png",
+                "title": "MATCHO MATCHO",
+                "category": "REGULAR"
+            },
+            {
+                "id": 9,
+                "image": "./dd9.png",
+                "title": "JACKY CHUNK",
+                "category": "ON SALE!"
+            },
+            {
+                "id": 10,
+                "image": "./dd10.png",
+                "title": "JCOCHINO",
+                "category": "REGULAR"
+            },
+            {
+                "id": 11,
+                "image": "./dd11.png",
+                "title": "OREOLOGY",
+                "category": "REGULAR"
+            },
+            {
+                "id": 12,
+                "image": "./dd12.png",
+                "title": "TIRAMISU",
+                "category": "ON SALE!"
+            },
+            {
+                "id": 13,
+                "image": "./dd13.png",
+                "title": "WHY-NUT",
+                "category": "REGULAR"
+            },
+            {
+                "id": 14,
+                "image": "./dd14.png",
+                "title": "SNOW WHITE",
+                "category": "ON SALE!"
+            },
+            {
+                "id": 15,
+                "image": "./dd15.png",
+                "title": "MEISISIPI",
+                "category": "ON SALE!"
+            }
+
+
+
+
+
+        ],
+        "team": [
+            {
+                "id": 1,
+                "image": "./tm2.png",
+                "name": "MATTHEW JUANCHO",
+                "designation": "Founder & Head Chef"
+            },
+            {
+                "id": 2,
+                "image": "./tm1.png",
+                "name": "DARELL ANDREW",
+                "designation": "Head Chef"
+            },
+            {
+                "id": 3,
+                "image": "./tm4.png",
+                "name": "CALEB BROCK LESNAR",
+                "designation": "Baker’s Assistant"
+            },
+            {
+                "id": 4,
+                "image": "./tm3.png",
+                "name": "FRANCIS ALKRAISE",
+                "designation": "Baker’s Assistant"
+            },
+            {
+                "id": 5,
+                "image": "./tm5.png",
+                "name": "ANDRIE LEZLABLAZE",
+                "designation": "Decorator/Froster"
+            },
+            {
+                "id": 6,
+                "image": "./tm6.png",
+                "name": "ELY ELLIZER",
+                "designation": "Pastry Chef"
+            },
+            {
+                "id": 7,
+                "image": "./tm7.png",
+                "name": "RENCIE JOHN",
+                "designation": "Pastry Chef"
+            },
+            {
+                "id": 8,
+                "image": "./tm8.png",
+                "name": "ROWE RUI",
+                "designation": "Senior Chef"
+            },
+            {
+                "id": 9,
+                "image": "./tm9.png",
+                "name": "JOHN KENNETH",
+                "designation": "Senior Chef"
+            },
+            {
+                "id": 10,
+                "image": "./tm10.png",
+                "name": "JUAN MIGUEL",
+                "designation": "Donut Maker"
+            },
+            {
+                "id": 11,
+                "image": "./tm11.png",
+                "name": " ETHAN ZEKE",
+                "designation": "Donut Maker"
+            },
+            {
+                "id": 12,
+                "image": "./tm12.png",
+                "name": "JOHANN KARL",
+                "designation": "Fry Cook"
+            },
+            {
+                "id": 13,
+                "image": "./tm13.png",
+                "name": "ALDUS ROBIN",
+                "designation": "Fry Cook"
+            },
+            {
+                "id": 14,
+                "image": "./tm14.png",
+                "name": "RYELLE JOHN",
+                "designation": "Prep Cook"
+            },
+            {
+                "id": 15,
+                "image": "./tm15.png",
+                "name": "LIAM GABRIEL",
+                "designation": "Prep Cook"
+            }
+        ],
+
+        "testimonials": [
+            {
+                "id": 1,
+                "image": "./review1.png",
+                "description": "Morbi nulla nec dui lacus, in. Libero in pretium metus massa. Sodales dignissim vitae mauris varius faucibus. Eleifend dui, non laoreet ac luctus facilisis diam. Enim scelerisque vel at id viverra tellus.",
+                "rating": 4,
+                "userName": "Jane Cooper"
+            },
+            {
+                "id": 2,
+                "image": "./review2.png",
+                "description": "Tortor vel nunc netus pharetra enim, enim dolor mauris in. Sit nam fringilla in egestas. Libero condimentum quis in vulputate adipiscing venenatis augue. Venenatis faucibus.",
+                "rating": 4.5,
+                "userName": "Esther Howard"
+            },
+            {
+                "id": 3,
+                "image": "./review3.png",
+                "description": "Tortor vel nunc netus pharetra enim, enim dolor mauris in. Sit nam fringilla in egestas. Libero condimentum quis in vulputate adipiscing venenatis augue. Venenatis faucibus.",
+                "rating": 5,
+                "userName": "Guy Hawkins"
+            }
+        ],
+        
+        "shop_information": [
+            {
+                "id": 1,
+                "number": "1000",
+                "title": "Commercial Bakery"
+            },
+            {
+                "id": 2,
+                "number": "15",
+                "title": "Culinary Masters"
+            },
+            {
+                "id": 3,
+                "number": "08",
+                "title": "Years Of Experience"
+            },
+            {
+                "id": 4,
+                "number": "10",
+                "title": "Innovative Techniques"
+            },
+            {
+                "id": 5,
+                "number": "5",
+                "title": "Notable Clients"
+            },
+            {
+                "id": 6,
+                "number": "40",
+                "title": "Unique Flavors"
+            },
+            {
+                "id": 7,
+                "number": "28",
+                "title": "Pastry Creations"
+            },
+            {
+                "id": 8,
+                "number": "4",
+                "title": "Awards Won"
+            },
+            {
+                "id": 9,
+                "number": "21",
+                "title": "Custom Recipes"
+            },
+            {
+                "id": 10,
+                "number": "18",
+                "title": "Seasonal Treats"
+            }
+        ],
+        
+        "navbarLinks": [
+            {
+                "id": 1,
+                "title": "HOME",
+                "link": "heroSection"
+            },
+
+            {
+                "id": 3,
+                "title": "SERVICES",
+                "link": "qualities"
+            },
+            {
+                "id": 4,
+                "title": "ABOUT US",
+                "link": "history"
+            },
+            {
+                "id": 5,
+                "title": "RESERVATION",
+                "link": "reservation"
+            }
+        ]
+    
+    } 
+    ]
+}
